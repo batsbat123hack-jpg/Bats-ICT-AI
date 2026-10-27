@@ -3,9 +3,7 @@ import { GoogleGenAI, ThinkingLevel } from '@google/genai';
 import dotenv from 'dotenv';
 import path from 'path';
 import fs from 'fs';
-import { generateBatsVisualArtwork } from './src/utils/ai-fallback';
-
-
+import { generateBatsVisualArtwork } from './src/utils/ai-fallback.ts';
 const app = express();
 const PORT = Number(process.env.PORT) || 3000;
 const isProduction = process.env.NODE_ENV === 'production';
