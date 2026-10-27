@@ -1,0 +1,6 @@
+{
+  "name": "Bats AI",
+  "description": "Bats AI next-gen intelligence platform featuring real-time Q&A, image generation, code editing with syntax highlighting, multimodal file analysis, and account history.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
