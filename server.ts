@@ -1,4 +1,5 @@
-import express, { Request, Response } from 'express';
+import express from 'express';
+import type { Request, Response } from 'express';
 import { GoogleGenAI, ThinkingLevel } from '@google/genai';
 import dotenv from 'dotenv';
 import path from 'path';
